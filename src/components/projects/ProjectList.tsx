@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { ProjectFilters } from './ProjectFilters';
-import { ProjectCard } from './ProjectCard'; // Ensure this import is correct
+import { ProjectCard } from './ProjectCard'; 
 import { mockProjects, calculateProjectStatus } from '@/lib/utils';
 
 export function ProjectList() {
